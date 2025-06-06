@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */
