@@ -161,17 +161,20 @@ nav div a:first-child {
   border-radius: 5px;
   transition: transform 0.3s ease, width 0.3s ease;
 }
-.slide img:hover {
+.slide:hover img {
   width: 75%;
   transform: scale(1.05);
 }
 
 .precedence-number {
   position: absolute;
-  bottom: 5px;
-  left: 1px;
+  bottom: 3px;
+  left: -30px;
   color: rgb(0, 0, 0);
   padding: 2px 5px;
   border-radius: 3px;
-  font-size: 50px;
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }/*# sourceMappingURL=style.css.map */
