@@ -208,4 +208,57 @@ nav div a:first-child {
   position: absolute;
   bottom: 20px;
   right: 20px;
+}
+
+.preguntas {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.accordion {
+  margin: 20px 0px;
+  width: 100%;
+}
+.accordion .content {
+  background: rgb(48, 48, 48);
+  text-align: left;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 20px;
+  transition: max-height 0.3s, padding 0.3s;
+}
+.accordion li {
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+.accordion li label {
+  display: flex;
+  padding: 20px;
+  height: 80px;
+  font-size: 22px;
+  background-color: rgb(48, 48, 48);
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+.accordion li label ::after {
+  content: "+";
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.5s;
+}
+
+.accordion input[type=checkbox]:checked + label + .content {
+  max-height: 600px;
+  padding: 30px 20px;
+}
+
+.accordion input[type=checkbox]:checked + label::after {
+  transform: rotate(135deg);
+}
+
+input[type=checkbox] {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
