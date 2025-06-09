@@ -241,8 +241,9 @@ nav div a:first-child {
   background-color: rgb(48, 48, 48);
   margin-bottom: 2px;
   cursor: pointer;
+  position: relative;
 }
-.accordion li label ::after {
+.accordion li label::after {
   content: "+";
   font-size: 34px;
   position: absolute;
@@ -261,4 +262,18 @@ nav div a:first-child {
 
 input[type=checkbox] {
   display: none;
+}
+
+/*seccion comienza ahora */
+.comienza-ahora {
+  margin: 60px;
+  text-align: center;
+}
+.comienza-ahora p {
+  margin-bottom: 20px;
+}
+.comienza-ahora div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
