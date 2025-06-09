@@ -283,4 +283,36 @@ footer
     font-size: 14px
     border: 1px solid rgb(255, 255, 255)
 .ultimo-parrafo
-  margin-bottom: 100px
+  margin-bottom: 90px
+
+// ----@mediaquery-----
+
+@media (max-width: 700px)
+  nav
+    padding: 15px 6%
+  .logo
+    width: 100px
+
+  .contenedor-principal
+    h1
+      font-size: 40px
+    h3
+      font-size: 15px
+    p
+      line-height: 20px
+      font-size: 14px
+    .input
+      width: 260px
+
+  .slide:nth-child(n+4)
+    display: none
+  .beneficios-items
+    display: grid
+    grid-template-columns: repeat(1,1fr)
+
+@media (max-width: 900px)
+  .slide:nth-child(n+5)
+    display: none
+
+
+
